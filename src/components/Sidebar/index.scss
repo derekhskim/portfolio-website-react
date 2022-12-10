@@ -60,7 +60,7 @@
             &:after {
                 content: '';
                 font-size: 9px;
-                letter-spacing: 2px;
+                letter-spacing: 1px;
                 position: absolute;
                 bottom: 0;
                 display: block;
@@ -71,7 +71,7 @@
             }
 
             &:first-child {
-                &::after {
+                &:after {
                     content: 'HOME';
                 }
             }
@@ -80,6 +80,12 @@
         a.about-link {
             &:after {
                 content: 'ABOUT';
+            }
+        }
+
+        a.portfolio-link {
+            &:after {
+                content: 'PORTFOLIO';
             }
         }
 
@@ -112,8 +118,11 @@
                 display: block;
                 font-size: 15px;
                 line-height: 16px;
+                color: #FFF;
+            }
 
-                &:hover svg {
+                &:hover {
+                    .anchor-icon{
                     color: #FFF;
                 }
             }

@@ -1,0 +1,28 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/pitch-perfect/pitch-perfect.png",
+            "title": "Pitch Perfect (Android)",
+            "description": "Flutter, Dart, Android, Cross-Platform, Google Play",
+            "url": "https://play.google.com/store/apps/details?id=com.noobietubie.pitch.perfect"
+        },
+        {
+            "cover": "/portfolio/pitch-perfect/pitch-perfect.png",
+            "title": "Pitch Perfect (iOS)",
+            "description": "Flutter, Dart, iOS, Cross-Platform, Apple Store",
+            "url": "https://apps.apple.com/ca/app/pitch-perfect/id1637198395"
+        },
+        {
+            "cover": "/portfolio/music-off/music-off.png",
+            "title": "Music Off (Android)",
+            "description": "Flutter, Dart, Android, Google Play",
+            "url": "https://musicoff.co/"
+        },
+        {
+            "cover": "/portfolio/pwa/pwa.png",
+            "title": "Portfolio Website (React.js & Firebase)",
+            "description": "React.js, mail.js, Javascript, SCSS, JSON, API, NPM, PWA, Firebase, Firebase Dashboard",
+            "url": "https://noobietubie.ca/"
+        }
+    ]
+}

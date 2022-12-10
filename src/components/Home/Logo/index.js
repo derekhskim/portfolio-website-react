@@ -1,7 +1,6 @@
 import './index.scss';
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap-trial'
-import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
 import LogoS from '../../../assets/images/logo-s.png'
 
 const Logo = () => {
@@ -12,7 +11,6 @@ const Logo = () => {
     const tl = useRef(gsap.timeline())
 
     useEffect(() => {
-        gsap.registerPlugin(DrawSVGPlugin)
 
         tl
             .current
@@ -53,8 +51,8 @@ const Logo = () => {
                 width="826pt" 
                 height="576pt" 
                 viewBox="0 0 826 576"
-                preserveAspectRatio="xMidYMid meet">
-
+                preserveAspectRatio="xMidYMid meet"
+                >
             <g 
                 className="svg-container"
                 fill="none"
